@@ -1,0 +1,45 @@
+alya@kousalya-lt7 MINGW64 ~/Documents/witchers/testrepo1 (master)
+$ git add branch2/
+warning: LF will be replaced by CRLF in branch2/k1.
+The file will have its original line endings in your working directory
+
+kousalya@kousalya-lt7 MINGW64 ~/Documents/witchers/testrepo1 (master)
+$ git commit -m "add" branch2/
+warning: LF will be replaced by CRLF in branch2/k1.
+The file will have its original line endings in your working directory
+[master c763215] add
+ 1 file changed, 33 insertions(+), 27 deletions(-)
+ rewrite branch2/k1 (99%)
+
+kousalya@kousalya-lt7 MINGW64 ~/Documents/witchers/testrepo1 (master)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.01 KiB | 1.01 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/kousalyakota/testrepo1.git
+   ff9ecb4..c763215  master -> master
+
+kousalya@kousalya-lt7 MINGW64 ~/Documents/witchers/testrepo1 (master)
+$
+
+kousalya@kousalya-lt7 MINGW64 ~/Documents/witchers/testrepo1 (master)
+$
+
+kousalya@kousalya-lt7 MINGW64 ~/Documents/witchers/testrepo1 (master)
+$ cd branch2/
+
+kousalya@kousalya-lt7 MINGW64 ~/Documents/witchers/testrepo1/branch2 (master)
+$ ll
+total 4
+-rw-r--r-- 1 kousalya 1049089 3227 Sep  3 15:18 k1
+
+kousalya@kousalya-lt7 MINGW64 ~/Documents/witchers/testrepo1/branch2 (master)
+$
+
+kousalya@kousalya-lt7 MINGW64 ~/Documents/witchers/testrepo1/branch2 (master)
+$
+
