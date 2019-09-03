@@ -1,0 +1,33 @@
+Startup failed. See /opt/collabnet/teamforge/log/runtime/runtime.log for details.
+Skipping initialization of 'etl' as it did not start up successfully
+Skipping initialization of 'integration' as it did not start up successfully
+Skipping initialization of 'phoenix' as it did not start up successfully
+Initializing cliserver-cron...
+  Installing CLI Server Branding Hooks                      Done            2.37 secs
+Initializing ctfcore-app...
+  Update SSL in DB                                          Done            2.82 secs
+  Import SSL certificates of servers                        Done           15.50 secs
+  Install project templates                                 Done          243.87 secs
+  Synchronize CLI Reports                                   Done           54.86 secs
+Initializing reviewboard...
+  Sync Database and Import CTF Users and Groups             Done           35.86 secs
+  Import SSL certificate of CTF Core                        Done            1.50 secs
+  Authenticating scmviewer against CTF                      Done            6.83 secs
+  Integrating Reviewboard with CTF                          Done           15.09 secs
+
+Summary of errors encountered:
+(1) Starting service 'etl' failed
+(2) Starting service 'integration' failed
+(3) Starting service 'phoenix' failed
+(4) Startup failed. See /opt/collabnet/teamforge/log/runtime/runtime.log for details.
+
+Summary of warnings encountered:
+(1) This installation uses the same domain name (FQDN) for multiple services. However, it is recommended to specify a dedicated domain name for the ctfcore-app service. This allows you to keep URLs stable and minimize end user impact should this service ever be split/moved to a separate host machine in the future.
+(2) This installation uses the same domain name (FQDN) for multiple services. However, it is recommended to specify a dedicated domain name for the gerrit service. This allows you to keep URLs stable and minimize end user impact should this service ever be split/moved to a separate host machine in the future.
+(3) This installation uses the same domain name (FQDN) for multiple services. However, it is recommended to specify a dedicated domain name for the mail service. This allows you to keep URLs stable and minimize end user impact should this service ever be split/moved to a separate host machine in the future.
+(4) This installation uses the same domain name (FQDN) for multiple services. However, it is recommended to specify a dedicated domain name for the reviewboard service. This allows you to keep URLs stable and minimize end user impact should this service ever be split/moved to a separate host machine in the future.
+(5) This installation uses the same domain name (FQDN) for multiple services. However, it is recommended to specify a dedicated domain name for the subversion service. This allows you to keep URLs stable and minimize end user impact should this service ever be split/moved to a separate host machine in the future.
+(6) Skipping initialization of 'etl' as it did not start up successfully
+(7) Skipping initialization of 'integration' as it did not start up successfully
+(8) Skipping initialization of 'phoenix' as it did not start up successfully
+
